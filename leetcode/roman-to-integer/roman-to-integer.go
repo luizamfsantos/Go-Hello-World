@@ -18,7 +18,7 @@ func romanToInt(s string) int {
 		string_subset := string(s[i])
 		switch i {
 		case 0:
-			new_val := roman_mapping[string_subset]
+			new_val = roman_mapping[string_subset]
 			total += new_val
 			previous_val = new_val
 		default:
