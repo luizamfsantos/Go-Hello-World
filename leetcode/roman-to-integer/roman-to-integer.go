@@ -20,7 +20,6 @@ func romanToInt(s string) int {
 		case 0:
 			new_val = roman_mapping[string_subset]
 			total += new_val
-			previous_val = new_val
 		default:
 			previous_val = new_val
 			new_val = roman_mapping[string_subset]
