@@ -5,27 +5,21 @@ import "fmt"
 func binarySearch(orderedNums []int, goal int) int {
 	currentMinIndex := 0
 	currentMaxIndex := len(orderedNums) - 1
-	// check if goal is min or max
-	switch goal {
-	case orderedNums[currentMinIndex]:
-		return currentMinIndex
-	case orderedNums[currentMaxIndex]:
-		return currentMaxIndex
+	// check if goal is out of range
+	if goal < orderedNums[currentMinIndex] || goal > orderedNums[currentMaxIndex] {
+		return -1
 	}
 	// divide the current range in half until index is found or we have searched
 	// the entire range
-	for {
-		indexOfInterest := int((currentMaxIndex - currentMinIndex) / 2)
+	for currentMaxIndex <= currentMinIndex {
+		indexOfInterest := currentMinIndex + (currentMaxIndex-currentMinIndex)/2
 		switch {
 		case goal < orderedNums[indexOfInterest]:
-			currentMaxIndex = indexOfInterest
+			currentMaxIndex = indexOfInterest - 1
 		case goal > orderedNums[indexOfInterest]:
-			currentMinIndex = indexOfInterest
+			currentMinIndex = indexOfInterest + 1
 		default:
 			return indexOfInterest
-		}
-		if currentMaxIndex == currentMinIndex {
-			break
 		}
 	}
 	return -1
