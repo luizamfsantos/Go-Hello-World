@@ -14,7 +14,7 @@
 [X] multiple-return-values: https://gobyexample.com/multiple-return-values
 [X] variadic-functions: https://gobyexample.com/variadic-functions
 [X] closures: https://gobyexample.com/closures
-[ ] recursion: https://gobyexample.com/recursion
+[X] recursion: https://gobyexample.com/recursion
 [ ] range-over-built-in-types: https://gobyexample.com/range-over-built-in-types
 [ ] pointers: https://gobyexample.com/pointers
 [ ] strings-and-runes: https://gobyexample.com/strings-and-runes
