@@ -11,8 +11,8 @@
 [x] slices: https://gobyexample.com/slices
 [x] maps: https://gobyexample.com/maps
 [x] functions: https://gobyexample.com/functions
-[ ] multiple-return-values: https://gobyexample.com/multiple-return-values
-[ ] variadic-functions: https://gobyexample.com/variadic-functions
+[X] multiple-return-values: https://gobyexample.com/multiple-return-values
+[X] variadic-functions: https://gobyexample.com/variadic-functions
 [ ] closures: https://gobyexample.com/closures
 [ ] recursion: https://gobyexample.com/recursion
 [ ] range-over-built-in-types: https://gobyexample.com/range-over-built-in-types
