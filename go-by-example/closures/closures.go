@@ -5,6 +5,7 @@ import "fmt"
 // anonymous functions
 // used whenever we want to define a function
 // without hanging to name it
+// like generators
 
 func intSeq() func() int {
 	i := 0
