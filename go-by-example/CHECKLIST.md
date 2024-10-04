@@ -1,16 +1,16 @@
 # Checklist for Go by Example
 
-[ ] hello-world: https://gobyexample.com/hello-world
-[ ] values: https://gobyexample.com/values
-[ ] variables: https://gobyexample.com/variables
-[ ] constants: https://gobyexample.com/constants
-[ ] for: https://gobyexample.com/for
-[ ] if-else: https://gobyexample.com/if-else
-[ ] switch: https://gobyexample.com/switch
-[ ] arrays: https://gobyexample.com/arrays
-[ ] slices: https://gobyexample.com/slices
-[ ] maps: https://gobyexample.com/maps
-[ ] functions: https://gobyexample.com/functions
+[X] hello-world: https://gobyexample.com/hello-world
+[X] values: https://gobyexample.com/values
+[X] variables: https://gobyexample.com/variables
+[X] constants: https://gobyexample.com/constants
+[X] for: https://gobyexample.com/for
+[x] if-else: https://gobyexample.com/if-else
+[x] switch: https://gobyexample.com/switch
+[X] arrays: https://gobyexample.com/arrays
+[x] slices: https://gobyexample.com/slices
+[x] maps: https://gobyexample.com/maps
+[x] functions: https://gobyexample.com/functions
 [ ] multiple-return-values: https://gobyexample.com/multiple-return-values
 [ ] variadic-functions: https://gobyexample.com/variadic-functions
 [ ] closures: https://gobyexample.com/closures
