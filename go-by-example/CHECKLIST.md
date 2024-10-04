@@ -13,7 +13,7 @@
 [x] functions: https://gobyexample.com/functions
 [X] multiple-return-values: https://gobyexample.com/multiple-return-values
 [X] variadic-functions: https://gobyexample.com/variadic-functions
-[ ] closures: https://gobyexample.com/closures
+[X] closures: https://gobyexample.com/closures
 [ ] recursion: https://gobyexample.com/recursion
 [ ] range-over-built-in-types: https://gobyexample.com/range-over-built-in-types
 [ ] pointers: https://gobyexample.com/pointers
